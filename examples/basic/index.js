@@ -37,25 +37,25 @@ var markerPosad = L.marker([55.7797, 38.6707], {
   //icon: greenIcon,
   draggable: false,
 })
-.bindPopup('Герцена, 18, 8')
-.addTo(map);
+.bindPopup('Герцена, 18, 8 <br> 55.7797, 38.6707')
+//.addTo(map);
 
 var markerGarage = L.marker([58.552592114524664, 49.69043127457112], {
   // icon: greenIcon
   draggable: false,
 })
-.bindPopup('Гараж Корчемкино')
-.addTo(map);
+.bindPopup('Гараж Корчемкино <br> 58.552592114524664, 49.69043127457112')
+//.addTo(map);
 
 //
 var marker32999 = L.marker([63.72094954895118, 66.67198955144882], {
   // icon: greenIcon
   draggable: false,
 })
-.bindPopup('Гараж Корчемкино')
-.addTo(map);
+.bindPopup('Белоярский 32999 <br> 63.72094954895118, 66.67198955144882')
+//.addTo(map);
 
-var groupRealty = L.layerGroup([markerPosad, markerGarage, marker32999])
+var groupRealty = L.layerGroup([markerPosad, markerGarage, marker32999])//группировка маркеров с помощью layerGroup
 .addTo(map);
 
 
@@ -66,3 +66,4 @@ L.control.layers(baseMaps, {
 
 
 //https://leaflet-extras.github.io/leaflet-providers/preview/
+//44:32
