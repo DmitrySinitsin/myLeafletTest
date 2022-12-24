@@ -24,6 +24,8 @@ var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 
 
 
+
+
 var baseMaps = {
   Mapnik: OpenStreetMap_Mapnik,
   OSM: osmLayer,
@@ -35,7 +37,7 @@ var markerPosad = L.marker([55.7797, 38.6707], {
   //icon: greenIcon,
   draggable: false,
 })
-.bindPopup('Герцена, 18, квартира 8, комната 5')
+.bindPopup('Герцена, 18, 8')
 .addTo(map);
 
 var markerGarage = L.marker([58.552592114524664, 49.69043127457112], {
